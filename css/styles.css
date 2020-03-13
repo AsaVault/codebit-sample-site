@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	background: #eee;
+}
+
+.container{
+	width: 960px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.hide{
+	overflow: hidden;
+}
+
+.container header{
+	width: 100%;
+	height: 100px;
+	background: #458;
+	padding: 20px;
+}
+
+.container header .logo{
+	width: 25%;
+	height:60px;
+	background-color: #fff;
+	border-radius: 10px;
+	float: left;
+}
+
+.container header .logo img{
+	width:200px;
+}
+.container header nav{
+	width: 60%;
+	height: 60px;
+	
+	float: right;
+}
+.container header nav ul{
+	list-style-type: none;
+	float: right;
+}
+.container header nav ul li{
+	float: left;
+	padding: 0 15px;
+}
+.container header nav ul li a{
+	font-size: 20px;
+	/*padding: 13px 15px 0 15px;*/
+	text-decoration: none;
+	font-family: tahoma;
+	color: #eee;
+	transition: all 500ms ease-in;
+
+}
+
+.container header nav ul li a:hover{
+	border-bottom: 2px solid red;
+	
+
+}
+.container .slider{
+	width: 100%;
+	height: 350px;
+	background: pink;
+}
+
+.container .slider .slider-image{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/codebits-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 30px;
+}
+
+.container .slider .slider-text{
+	width: 60%;
+	height: 250px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #458;
+	padding: 40px 35px;
+}
+
+.container .slider .slider-text h1{
+	font-family: monospace;
+	font-size: 30px;
+
+}
+
+.container .main{
+	padding: 10px 30px;
+	width: 100%;
+	min-height: 500px;
+}
+
+.container .main .footer-widget{
+	width: 100%;
+	min-height: 400px;
+	background-color: #eee;
+	padding: 20px 0 20px 20px;
+}
+
+.container .main .footer-widget .widget{
+	width:24%;
+	height: 250px;
+	background: #fff;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.container .main .footer-widget .widget img{
+	width: 200px;
+	height: 133.33px;
+}
+
+.container .main .footer-widget .widget a{
+	color: #458;
+	font-size: 18px;
+}	
+
+.container .main footer{
+	width:100%;
+	background-color: #458;
+	color: #eee;
+	text-align: center;
+	height:45px;
+	padding-top: 1px	;
+}
